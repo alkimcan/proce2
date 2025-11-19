@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SporDestek</string>
+    
+    <!-- Google Fit API Key (Kullanıcı kendi key'ini ekleyecek) -->
+    <string name="google_fit_api_key">796836861784-m7uenbf8a86aeqfj0bmuhpt28s9n56hp.apps.googleusercontent.com</string>
+    
+    <!-- Backend API URL -->
+    <string name="api_base_url">https://3000-iakf70cmx0yy2acgvtqg4-1c5d5ede.manus-asia.computer</string>
+    
+    <!-- Genel Metinler -->
+    <string name="welcome_title">Adımlarınızla Amatör Spor Kulüplerini Destekleyin</string>
+    <string name="welcome_subtitle">Her gün attığınız adımları puana çevirin, sevdiğiniz kulüplere bağış yapın. Hareket edin, destek olun, fark yaratın!</string>
+    
+    <!-- Navigasyon -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_clubs">Kulüpler</string>
+    <string name="nav_steps">Adımlarım</string>
+    <string name="nav_leaderboard">Sıralama</string>
+    <string name="nav_profile">Profilim</string>
+    
+    <!-- Butonlar -->
+    <string name="btn_login">Giriş Yap</string>
+    <string name="btn_register">Kayıt Ol</string>
+    <string name="btn_save_steps">Adımları Kaydet</string>
+    <string name="btn_convert_points">Puana Çevir</string>
+    <string name="btn_donate">Bağış Yap</string>
+    <string name="btn_view_all">Tümünü Gör</string>
+    
+    <!-- Adımlar -->
+    <string name="steps_today">Bugünkü Adımlarım</string>
+    <string name="steps_total">Toplam Adımlarım</string>
+    <string name="steps_sync">Google Fit\'ten Senkronize Et</string>
+    <string name="steps_manual">Manuel Gir</string>
+    
+    <!-- Puanlar -->
+    <string name="points_total">Toplam Puanım</string>
+    <string name="points_available">Kullanılabilir Puan</string>
+    <string name="points_earned">Kazanılan Puan</string>
+    
+    <!-- Kulüpler -->
+    <string name="clubs_title">Kulüpler</string>
+    <string name="clubs_top">En Çok Destek Alan Kulüpler</string>
+    <string name="club_donate">Kulübe Bağış Yap</string>
+    <string name="club_total_donations">Toplam Destek</string>
+    
+    <!-- Liderlik Tablosu -->
+    <string name="leaderboard_title">Liderlik Tablosu</string>
+    <string name="leaderboard_rank">Sıralama</string>
+    <string name="leaderboard_you">Siz</string>
+    
+    <!-- Profil -->
+    <string name="profile_title">Profilim</string>
+    <string name="profile_donations">Bağış Geçmişi</string>
+    <string name="profile_steps_history">Adım Geçmişi</string>
+    <string name="profile_logout">Çıkış Yap</string>
+    
+    <!-- Hata Mesajları -->
+    <string name="error_network">İnternet bağlantısı yok</string>
+    <string name="error_generic">Bir hata oluştu</string>
+    <string name="error_google_fit">Google Fit bağlantısı kurulamadı</string>
+    <string name="error_login">Giriş yapılamadı</string>
+    
+    <!-- Başarı Mesajları -->
+    <string name="success_steps_saved">Adımlar kaydedildi</string>
+    <string name="success_points_converted">Puanlar kazanıldı</string>
+    <string name="success_donation">Bağış yapıldı</string>
+</resources>

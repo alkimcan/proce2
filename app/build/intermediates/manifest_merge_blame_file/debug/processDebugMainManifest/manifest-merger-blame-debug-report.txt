@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.spordestek.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- İnternet izni -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <!-- Google Fit izinleri -->
+16    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+16-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+17-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:11:5-94
+17-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:11:22-91
+18
+19    <!-- Kamera ve galeri izinleri -->
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:14:5-65
+20-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:14:22-62
+21    <uses-permission
+21-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:15:5-16:38
+22        android:name="android.permission.READ_EXTERNAL_STORAGE"
+22-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:15:22-77
+23        android:maxSdkVersion="32" />
+23-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:16:9-35
+24    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+24-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:17:5-76
+24-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:17:22-73
+25
+26    <permission
+26-->[androidx.core:core:1.12.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.spordestek.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.12.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.12.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.spordestek.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.12.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.12.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:19:5-45:19
+33        android:name="com.spordestek.app.SporDestekApplication"
+33-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:20:9-46
+34        android:allowBackup="true"
+34-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:21:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.12.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\396e032aae96a19f5d95643c90b995c4\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:22:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:23:9-54
+40        android:label="@string/app_name"
+40-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:24:9-41
+41        android:networkSecurityConfig="@xml/network_security_config"
+41-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:25:9-69
+42        android:supportsRtl="true"
+42-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:26:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.SporDestek" >
+44-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:27:9-48
+45        <activity
+45-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:30:9-39:20
+46            android:name="com.spordestek.app.MainActivity"
+46-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:31:13-41
+47            android:exported="true"
+47-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:32:13-36
+48            android:theme="@style/Theme.SporDestek"
+48-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:33:13-52
+49            android:windowSoftInputMode="adjustResize" > <!-- Bu satırı ekledim -->
+49-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:34:13-55
+50            <intent-filter>
+50-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:35:13-38:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:36:17-69
+51-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:36:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:37:17-77
+53-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:37:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <!-- Google Fit API için meta-data -->
+58        <meta-data
+58-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:42:9-44:58
+59            android:name="com.google.android.gms.fitness.API_KEY"
+59-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:43:13-66
+60            android:value="@string/google_fit_api_key" />
+60-->C:\Users\ALKM\Desktop\proce\proce2\app\src\main\AndroidManifest.xml:44:13-55
+61
+62        <activity
+62-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+63            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+63-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+64            android:excludeFromRecents="true"
+64-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+67        <!--
+68            Service handling Google Sign-In user revocation. For apps that do not integrate with
+69            Google Sign-In, this service will never be started.
+70        -->
+71        <service
+71-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+72            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+72-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+73            android:exported="true"
+73-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+74            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+74-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+75            android:visibleToInstantApps="true" />
+75-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\058b8b5f43265d8512e345a81f6b7908\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-fitness:21.1.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\7d8bd97ee8659b06c4572185a2a38375\transformed\jetified-play-services-fitness-21.1.0\AndroidManifest.xml:23:9-25:38
+78            android:name="com.google.gms.fitness.sdk.version"
+78-->[com.google.android.gms:play-services-fitness:21.1.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\7d8bd97ee8659b06c4572185a2a38375\transformed\jetified-play-services-fitness-21.1.0\AndroidManifest.xml:24:13-62
+79            android:value="21.1.0" />
+79-->[com.google.android.gms:play-services-fitness:21.1.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\7d8bd97ee8659b06c4572185a2a38375\transformed\jetified-play-services-fitness-21.1.0\AndroidManifest.xml:25:13-35
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\f9dcf1d40111bb5c323fe35cf0ed3954\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\f9dcf1d40111bb5c323fe35cf0ed3954\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\f9dcf1d40111bb5c323fe35cf0ed3954\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\f9dcf1d40111bb5c323fe35cf0ed3954\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+85        <activity
+85-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\ALKM\.gradle\caches\8.13\transforms\6d27b7874a3adf0a47888bc81c27215a\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+86            android:name="androidx.compose.ui.tooling.PreviewActivity"
+86-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\ALKM\.gradle\caches\8.13\transforms\6d27b7874a3adf0a47888bc81c27215a\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+87            android:exported="true" />
+87-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\ALKM\.gradle\caches\8.13\transforms\6d27b7874a3adf0a47888bc81c27215a\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+88        <activity
+88-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\ALKM\.gradle\caches\8.13\transforms\adc02119a394ea19c2fc6a869b127053\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
+89            android:name="androidx.activity.ComponentActivity"
+89-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\ALKM\.gradle\caches\8.13\transforms\adc02119a394ea19c2fc6a869b127053\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
+90            android:exported="true" />
+90-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\ALKM\.gradle\caches\8.13\transforms\adc02119a394ea19c2fc6a869b127053\transformed\jetified-ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
+91
+92        <provider
+92-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\1cda1a2ad39124596f0a0e6265ea06bc\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+93            android:name="androidx.startup.InitializationProvider"
+93-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\1cda1a2ad39124596f0a0e6265ea06bc\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:25:13-67
+94            android:authorities="com.spordestek.app.androidx-startup"
+94-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\1cda1a2ad39124596f0a0e6265ea06bc\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:26:13-68
+95            android:exported="false" >
+95-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\1cda1a2ad39124596f0a0e6265ea06bc\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:27:13-37
+96            <meta-data
+96-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\1cda1a2ad39124596f0a0e6265ea06bc\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+97-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\1cda1a2ad39124596f0a0e6265ea06bc\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:30:17-75
+98                android:value="androidx.startup" />
+98-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\1cda1a2ad39124596f0a0e6265ea06bc\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\6a37765d4012cfdf81d66473b83e82d6\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\6a37765d4012cfdf81d66473b83e82d6\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+101                android:value="androidx.startup" />
+101-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\6a37765d4012cfdf81d66473b83e82d6\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+104                android:value="androidx.startup" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+105        </provider>
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\7f66784d775d73f2f3b4ebf1fae3b189\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\7f66784d775d73f2f3b4ebf1fae3b189\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\ALKM\.gradle\caches\8.13\transforms\7f66784d775d73f2f3b4ebf1fae3b189\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ALKM\.gradle\caches\8.13\transforms\92c31ecea57bda517a3ef21c0e49ca7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>
